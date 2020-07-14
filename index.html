@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html  lang="En">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<main>
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+  <nav>
+    <h1> Registration Form </h1>
+    
+  </nav>
+  <div>
+    <h2> Course Registration Form </h2>
+    <p id="description"> Fill out the form carefully for registration </p>
+  <form class="text" >
+    <label id="label" for="name-label"> Student Name </label> 
+    <input type="text" id="name-label" placeholder="First Name" name="name" required>
+    <input type="text" id="name" placeholder="Last Name" required> 
+    <label for="pickdate"> Birth Date </label> 
+    <input type="date" id="pickdate" name="date" required>
+    <label for="gend"> Gender </label> <br/>
+    <input type="radio" id="gend" name="male" value="Male" style="display: inline;">Male
+    <input type="radio" id="gend" name="male-female" value="Female" style="display: inline;">Female <br/>
+    <label for="number-label"> Age </label>
+    <input type="number" id="name-label" name="age" min="10" max="40" placeholder="Age" > 
+    <label for="add"> Address </label>
+    <input type="text" id="add" name="street" placeholder="Street Address" required>
+    <input type="text" id="add" name="city" placeholder="City" required>
+    <label for="country"> Country </label>
+    <select id="dropdown" name="country" required>
+      <option disabled value>Select an option</option>
+      <option value="Morocco"> Morocco </option>
+      <option value="Tunisia"> Tunisia </option>
+    </select>
+    <label for="email-label"> Student E-mail </label>
+    <input type="text" id="email-label" name="email" placeholder="Your Email">
+    <label for="Numb"> Phone Number </label>
+    <input type="text" id="Numb" name="number" required>  
+    <label for="info"> Additional Comments </label>
+    <textarea id="info" name="information" style="height: 100px;"> </textarea>
+    <input type="submit" value="Submit">
+  </form>
+</main>

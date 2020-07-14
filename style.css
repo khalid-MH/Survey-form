@@ -1,0 +1,87 @@
+body {
+  background: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+#description {
+  font-size: 20px;
+}
+h1{
+  float: left;
+  background: #CD853F;
+  color: black;
+  margin-top: 0px;
+  padding: 10px;
+  width: 100%;
+}
+
+div {
+  margin: 80px 60px;
+  text-align: center;
+  box-shadow: 10px 10px 20px;
+  border-radius: 20px;
+  font-family: ABeeZee;
+  min-width: 400px;
+  padding: 20px;
+  
+}
+
+h2 {
+  padding: 20px 0px;
+  font-style: italic;
+}
+input {
+  background: #FAFAD2;
+  border: none;
+  font-size: 16px;
+  border: 1px dashed;
+ display: block;
+  margin-bottom: 5px;
+}
+.text {
+  text-align: left;
+  margin: 10px 30px;
+  padding: 20px 10px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  margin-top: 8px;
+}
+input[type=submit] {
+  padding: 05px 10px;
+  background: #BDB76B;
+  border: none;
+}
+#dropdown {
+  border: 1 solid;
+}
+input[type=submit]:hover {
+  transform: scale(1.2);
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 600px){
+  div{
+    margin:80px auto;
+  }
+  input[type=text]{
+    width: 100%;
+  }
+  input[type=date]{
+    width:100%;
+  }
+  input[type=number]{
+    width:100%;
+  }
+  select{
+    width: 100%;
+  }
+}
